@@ -7,11 +7,14 @@
     "start": "twilio-run",
     "deploy": "twilio-run deploy"
   },
-  "dependencies": {},
+  "dependencies": {
+    "twilio": "^3.56",
+    "@twilio/runtime-handler": "1.2.1"
+  },
   "devDependencies": {
-    "twilio-run": "^2.6.0"
+    "twilio-run": "^3.4.0"
   },
   "engines": {
-    "node": "10"
+    "node": "12"
   }
 }
